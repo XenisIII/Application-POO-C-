@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Source">
+      <UniqueIdentifier>{288af3ed-e4d5-4617-abdc-67a794a3108f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\MyForm">
+      <UniqueIdentifier>{47f74dce-3918-4fc4-a084-fa0b02e26303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Map">
+      <UniqueIdentifier>{73ff9004-dc75-418f-bb21-3c69ac54060f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Gestion">
+      <UniqueIdentifier>{6390cfb1-76e7-48f6-9b14-e55891b31093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Gestion">
+      <UniqueIdentifier>{ef8113a8-acd1-4e88-8a70-a1c3219e261f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Map">
+      <UniqueIdentifier>{5905eb20-3a1c-43e5-ba7b-91bb7e91fe2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Source">
+      <UniqueIdentifier>{7c81abbc-7ef1-4677-8d4e-76639474c20a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm_Accueil.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm_Client.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm_Commande.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm_Catalogue.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm_Personnel.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Gestion_Client.h">
+      <Filter>Fichiers d%27en-tête\Gestion</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAdresse.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapClient.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappersonnel.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapVille.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CLcad.h">
+      <Filter>Fichiers d%27en-tête\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Fichiers d%27en-tête\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ServGestionPersonnel.h">
+      <Filter>Fichiers d%27en-tête\Gestion</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCatalogue.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GestionCatalogue.h">
+      <Filter>Fichiers d%27en-tête\Gestion</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm_Statistiques.h">
+      <Filter>Fichiers sources\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ServStatistiques.h">
+      <Filter>Fichiers d%27en-tête\Gestion</Filter>
+    </ClInclude>
+    <ClInclude Include="MapStatistiques.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCommande.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GestionCommande.h">
+      <Filter>Fichiers d%27en-tête\Gestion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Fichiers sources\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm_Accueil.cpp">
+      <Filter>Fichiers sources\MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm_Client.cpp">
+      <Filter>Fichiers sources\MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MapAdresse.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapClient.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappersonnel.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapVille.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ServGestionPersonnel.cpp">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="Gestion_Client.cpp">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="CLcad.cpp">
+      <Filter>Fichiers sources\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm_Stock.cpp">
+      <Filter>Fichiers sources\MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm_Catalogue.cpp">
+      <Filter>Fichiers sources\MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCatalogue.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GestionCatalogue.cpp">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm_Personnel.cpp">
+      <Filter>Fichiers sources\MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCatalogue.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GestionCatalogue.cpp">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm_Statistiques.cpp">
+      <Filter>Fichiers sources\MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="ServStatistiques.cpp">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="MapStatistiques.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCommande.cpp">
+      <Filter>Fichiers sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GestionCommande.cpp">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
